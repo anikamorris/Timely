@@ -14,6 +14,7 @@
 		CFDD33B62B8D63AE003F8E9A /* TimelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33B52B8D63AE003F8E9A /* TimelyTests.swift */; };
 		CFDD33C02B8D63AF003F8E9A /* TimelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33BF2B8D63AF003F8E9A /* TimelyUITests.swift */; };
 		CFDD33C22B8D63AF003F8E9A /* TimelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33C12B8D63AF003F8E9A /* TimelyUITestsLaunchTests.swift */; };
+		CFDD33D02B8D6C60003F8E9A /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33CF2B8D6C60003F8E9A /* Timetable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CFDD33BB2B8D63AF003F8E9A /* TimelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDD33BF2B8D63AF003F8E9A /* TimelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITests.swift; sourceTree = "<group>"; };
 		CFDD33C12B8D63AF003F8E9A /* TimelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFDD33CF2B8D6C60003F8E9A /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		CFDD33A32B8D63AC003F8E9A /* Timely */ = {
 			isa = PBXGroup;
 			children = (
+				CFDD33CE2B8D6C36003F8E9A /* Models */,
 				CFDD33A42B8D63AC003F8E9A /* TimelyApp.swift */,
 				CFDD33A62B8D63AC003F8E9A /* ContentView.swift */,
 				CFDD33A82B8D63AE003F8E9A /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				CFDD33C12B8D63AF003F8E9A /* TimelyUITestsLaunchTests.swift */,
 			);
 			path = TimelyUITests;
+			sourceTree = "<group>";
+		};
+		CFDD33CE2B8D6C36003F8E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFDD33CF2B8D6C60003F8E9A /* Timetable.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				CFDD33A72B8D63AC003F8E9A /* ContentView.swift in Sources */,
 				CFDD33A52B8D63AC003F8E9A /* TimelyApp.swift in Sources */,
+				CFDD33D02B8D6C60003F8E9A /* Timetable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
