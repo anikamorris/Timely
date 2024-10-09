@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CFDD33A52B8D63AC003F8E9A /* TimelyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33A42B8D63AC003F8E9A /* TimelyApp.swift */; };
-		CFDD33A72B8D63AC003F8E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33A62B8D63AC003F8E9A /* ContentView.swift */; };
 		CFDD33A92B8D63AE003F8E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDD33A82B8D63AE003F8E9A /* Assets.xcassets */; };
 		CFDD33AC2B8D63AE003F8E9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDD33AB2B8D63AE003F8E9A /* Preview Assets.xcassets */; };
 		CFDD33B62B8D63AE003F8E9A /* TimelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33B52B8D63AE003F8E9A /* TimelyTests.swift */; };
 		CFDD33C02B8D63AF003F8E9A /* TimelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33BF2B8D63AF003F8E9A /* TimelyUITests.swift */; };
 		CFDD33C22B8D63AF003F8E9A /* TimelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33C12B8D63AF003F8E9A /* TimelyUITestsLaunchTests.swift */; };
 		CFDD33D02B8D6C60003F8E9A /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD33CF2B8D6C60003F8E9A /* Timetable.swift */; };
+		CFEBF1F12CAC9EC700759B1A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBF1F02CAC9EC700759B1A /* Event.swift */; };
+		CFEBF1F42CAC9F0D00759B1A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBF1F32CAC9F0D00759B1A /* RootView.swift */; };
+		CFEBF1F62CACA01A00759B1A /* TimetableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBF1F52CACA01A00759B1A /* TimetableListView.swift */; };
+		CFEBF1F82CACA0E200759B1A /* EditTimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBF1F72CACA0E200759B1A /* EditTimetableView.swift */; };
+		CFEBF1FA2CACBA4D00759B1A /* TimetableDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBF1F92CACBA4D00759B1A /* TimetableDisplayView.swift */; };
+		CFEBF2002CACBD7400759B1A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBF1FF2CACBD7400759B1A /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		CFDD33A12B8D63AC003F8E9A /* Timely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDD33A42B8D63AC003F8E9A /* TimelyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyApp.swift; sourceTree = "<group>"; };
-		CFDD33A62B8D63AC003F8E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFDD33A82B8D63AE003F8E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFDD33AB2B8D63AE003F8E9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFDD33B12B8D63AE003F8E9A /* TimelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +50,12 @@
 		CFDD33BF2B8D63AF003F8E9A /* TimelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITests.swift; sourceTree = "<group>"; };
 		CFDD33C12B8D63AF003F8E9A /* TimelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CFDD33CF2B8D6C60003F8E9A /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
+		CFEBF1F02CAC9EC700759B1A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CFEBF1F32CAC9F0D00759B1A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CFEBF1F52CACA01A00759B1A /* TimetableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableListView.swift; sourceTree = "<group>"; };
+		CFEBF1F72CACA0E200759B1A /* EditTimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimetableView.swift; sourceTree = "<group>"; };
+		CFEBF1F92CACBA4D00759B1A /* TimetableDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableDisplayView.swift; sourceTree = "<group>"; };
+		CFEBF1FF2CACBD7400759B1A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +106,10 @@
 		CFDD33A32B8D63AC003F8E9A /* Timely */ = {
 			isa = PBXGroup;
 			children = (
+				CFEBF1FE2CACBD6700759B1A /* Helpers */,
+				CFEBF1F22CAC9EF500759B1A /* Views */,
 				CFDD33CE2B8D6C36003F8E9A /* Models */,
 				CFDD33A42B8D63AC003F8E9A /* TimelyApp.swift */,
-				CFDD33A62B8D63AC003F8E9A /* ContentView.swift */,
 				CFDD33A82B8D63AE003F8E9A /* Assets.xcassets */,
 				CFDD33AA2B8D63AE003F8E9A /* Preview Content */,
 			);
@@ -134,8 +145,28 @@
 			isa = PBXGroup;
 			children = (
 				CFDD33CF2B8D6C60003F8E9A /* Timetable.swift */,
+				CFEBF1F02CAC9EC700759B1A /* Event.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CFEBF1F22CAC9EF500759B1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBF1F32CAC9F0D00759B1A /* RootView.swift */,
+				CFEBF1F52CACA01A00759B1A /* TimetableListView.swift */,
+				CFEBF1F72CACA0E200759B1A /* EditTimetableView.swift */,
+				CFEBF1F92CACBA4D00759B1A /* TimetableDisplayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFEBF1FE2CACBD6700759B1A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBF1FF2CACBD7400759B1A /* Date+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDD33A72B8D63AC003F8E9A /* ContentView.swift in Sources */,
+				CFEBF1F82CACA0E200759B1A /* EditTimetableView.swift in Sources */,
+				CFEBF1F12CAC9EC700759B1A /* Event.swift in Sources */,
+				CFEBF2002CACBD7400759B1A /* Date+Extensions.swift in Sources */,
 				CFDD33A52B8D63AC003F8E9A /* TimelyApp.swift in Sources */,
+				CFEBF1F42CAC9F0D00759B1A /* RootView.swift in Sources */,
 				CFDD33D02B8D6C60003F8E9A /* Timetable.swift in Sources */,
+				CFEBF1FA2CACBA4D00759B1A /* TimetableDisplayView.swift in Sources */,
+				CFEBF1F62CACA01A00759B1A /* TimetableListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

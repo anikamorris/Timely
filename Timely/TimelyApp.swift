@@ -12,7 +12,7 @@ import SwiftData
 struct TimelyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
         .modelContainer(for: Timetable.self)
     }

@@ -10,23 +10,13 @@ import SwiftData
 
 @Model
 class Timetable {
-    let name: String
-    var events: [Event]
+    var name: String
+    @Relationship(deleteRule: .cascade) var events: [Event]?
     var endTime: Date
-    
-    init(name: String, events: [Event], endTime: Date) {
+
+    init(name: String = "", events: [Event] = [], endTime: Date = .now) {
         self.name = name
         self.events = events
         self.endTime = endTime
-    }
-}
-
-@Model class Event {
-    let title: String
-    let duration: Int
-    
-    init(title: String, duration: Int) {
-        self.title = title
-        self.duration = duration
     }
 }
